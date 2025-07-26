@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processando...</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #00ff99;
+        }
+
+        .loader {
+            border: 8px solid #333;
+            border-top: 8px solid #25d366;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 1s linear infinite;
+            margin: 40px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .imagem-bot {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 255, 153, 0.7);
+        }
+    </style>
+
+    <script>
+        // Espera 11 segundos e redireciona
+        setTimeout(function () {
+            window.location.href = "https://wa.me/258866875070?text=Olá%2C+acabei+de+acessar+o+site.+quero+obter+o+aplicativo+Bot+Aviator.";
+        }, 11000);
+    </script>
+</head>
+<body>
+
+    <!-- Sua imagem personalizada -->
+    <img src="https://i.postimg.cc/Bv28dJh0/f119eaf9-428d-49d4-9d46-9187762dadcb.png" alt="Bot Aviator" class="imagem-bot">
+
+    <h1>⏳ Processando por favor Aguarde...</h1>
+    <div class="loader"></div>
+    <p>Por favor, aguarde alguns segundos.<br>
+    Em breve você será direcionado ao WhatsApp do suporte para receber o aplicativo, fica à vontade, você não precisa pagar nada.</p>
+
+</body>
+</html>
